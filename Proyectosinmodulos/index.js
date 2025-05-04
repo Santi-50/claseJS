@@ -1,7 +1,3 @@
-const utils = require('./Mis modulos/utils')
-const {separar, separarasterisco, SuperDivisor} = require('./Mis modulos/utils')
-const {suma, resta, multiplicacion, division} = require('./Mis modulos/calculadora')
-
 //esta es nuestra prmera parctica con javascript
 
 // esto es un comentario
@@ -10,9 +6,9 @@ const {suma, resta, multiplicacion, division} = require('./Mis modulos/calculado
 fdsfdfsf
 dfsdfsd*/
 
-utils.separarMas()
-
-
+function separar (){
+    return console.log("-------------------------------------------------------------")
+}
 const pi = 3.14
 var holamundo= "hola mundo!"
 let edad= true
@@ -36,8 +32,6 @@ function saludar(){
 
 console.log(typeof saludar)
 
-separarasterisco()
-
 let saludo = function saludar(){
     console.log("BACK CON TODO")
 }
@@ -54,6 +48,30 @@ separar()
 console.log("repaso calse 3")
 
 // por declaracion
+
+function sumar(num1, num2){
+    return num1 + num2
+}
+
+//por expresion com lambda
+
+let suma = function (num1, num2){
+    return num1 + num2
+}
+
+//felcha o arrow
+
+let resta = (num1, num2) => {
+    return num1 - num2
+}
+
+let multiplicacion = (num1, num2) => {
+    return num1 * num2
+}
+
+let division = (num1, num2) => {
+    return num1 / num2
+}
 
 let numero1 = 10
 let numero2 = 20
@@ -108,10 +126,3 @@ function miFuncion(){
 }
 
 miFuncion();
-
-separarasterisco()
-
-cuenta = SuperDivisor(200, 15)
-
-console.log(SuperDivisor)
-console.log(cuenta)

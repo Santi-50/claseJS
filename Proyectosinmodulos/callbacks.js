@@ -1,8 +1,8 @@
-const {separar, separarasterisco} = require('./Mis modulos/utils')
-
-
 //por expresion com lambda
 
+function separar (){
+    return console.log("-------------------------------------------------------------")
+}
 
 let suma = function (num1, num2){
     return num1 + num2
@@ -48,7 +48,7 @@ numero1 = 100
 
 console.log(suma(20, 57))
 
- separarasterisco()
+ separar()
 
  console.log()
 function calcular (num1, num2, callback){

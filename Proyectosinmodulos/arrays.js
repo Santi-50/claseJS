@@ -1,4 +1,6 @@
-const {separar} = require('./Mis modulos/utils')
+function separar (){
+    return console.log("-------------------------------------------------------------")
+}
 
 let arrayvacio = []
 

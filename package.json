@@ -1,0 +1,24 @@
+{
+  "name": "practica_modulos",
+  "version": "1.0.0",
+  "description": "primer paquete que hacemos en Back con dos modulos",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Santi-50/claseJS.git"
+  },
+  "keywords": [
+    "calculadora",
+    "separadores",
+    "ifts11"
+  ],
+  "author": "SantiT",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Santi-50/claseJS/issues"
+  },
+  "homepage": "https://github.com/Santi-50/claseJS#readme"
+}
