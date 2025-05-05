@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/Santi-50/claseJS/issues"
   },
-  "homepage": "https://github.com/Santi-50/claseJS#readme"
+  "homepage": "https://github.com/Santi-50/claseJS#readme",
+  "dependencies": {
+    "colors": "^1.4.0"
+  }
 }

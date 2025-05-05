@@ -21,15 +21,15 @@ function separarMas (){
 
 
 
-separar()
+//separar()
 
 function SuperDivisor(num1, num2){
     return division(num1, num2)
 }
 
 
-console.log(module)
+//console.log(module)
 
-console.log(typeof{})
+//console.log(typeof{})
 
 module.exports ={separar, separarMas, separarasterisco, SuperDivisor}
